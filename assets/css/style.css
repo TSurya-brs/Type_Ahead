@@ -1,0 +1,63 @@
+
+.header{
+    background-color: rgb(100, 231, 231);
+    text-align: center;
+    padding:20px 0px;
+}
+
+.searchbox{
+    overflow:auto;
+    height:660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+#city{
+    border: solid;
+    height:70px;
+    width:300px;
+    font-size: large;
+}
+.box{
+    position: fixed;
+}
+
+#res{
+    width:290px;
+    margin-top: 100px;
+    display:none;
+    border:solid;
+    cursor: pointer;
+    font-size: large;
+}
+.resdiv{
+    padding: 10px 0px;
+    list-style-type:none;
+}
+
+.resdiv:hover{
+    background-color: rgb(21, 24, 24);
+    color: white;
+}
+
+/* Footer start */
+
+.footer{
+    width:100%;
+    height:70px;
+    display: flex; 
+    align-items: center;
+    margin-top: 10px;
+    background-color:rgb(100, 231, 231);
+    
+}
+.footer div{
+    width:200px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
